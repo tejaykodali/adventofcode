@@ -30,7 +30,6 @@ public class Main {
         ArrayList<Integer> odd = new ArrayList<>();
 
         try(Scanner scanner = new Scanner(Paths.get(fileName))) {
-            System.out.println("opened file");
             while (scanner.hasNext()) {
                 if (scanner.hasNextInt()) {
                     int number = scanner.nextInt();
